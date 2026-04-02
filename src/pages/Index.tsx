@@ -202,10 +202,6 @@ export default function Index() {
                 "Семейный системный терапевт",
               ].map((cred) => (
                 <div key={cred} className="flex items-center gap-3 justify-center md:justify-start">
-                  <div
-                    className="w-1.5 h-1.5 rounded-full shrink-0"
-                    style={{ background: "hsl(340,40%,65%)" }}
-                  />
                   <span className="font-golos text-base" style={{ color: "hsl(340,10%,45%)" }}>{cred}</span>
                 </div>
               ))}
