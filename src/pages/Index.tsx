@@ -293,14 +293,22 @@ export default function Index() {
               +7 913 746 59 08
             </a>
             <a
-              href="https://wa.me/79137465908"
+              href="https://t.me/+79137465908"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-golos font-medium border-2 transition-all hover:scale-105"
               style={{ borderColor: "hsl(200,50%,70%)", color: "hsl(200,45%,45%)" }}
             >
-              <Icon name="MessageCircle" size={18} />
-              WhatsApp
+              <Icon name="Send" size={18} />
+              Telegram
+            </a>
+            <a
+              href="tel:+79137465908"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-golos font-medium border-2 transition-all hover:scale-105"
+              style={{ borderColor: "hsl(340,40%,75%)", color: "hsl(340,40%,55%)" }}
+            >
+              <Icon name="Maximize2" size={18} />
+              Макс
             </a>
           </div>
           <p className="font-golos text-sm mt-8" style={{ color: "hsl(340,10%,65%)" }}>
