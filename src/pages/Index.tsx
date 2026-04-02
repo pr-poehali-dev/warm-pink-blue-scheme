@@ -303,11 +303,13 @@ export default function Index() {
               Telegram
             </a>
             <a
-              href="tel:+79137465908"
+              href="https://max.ru/u/f9LHodD0cOJs8rSS0CgxSC8MEk2uxRwHDY1NSfBSGOnxNSFROZe5x6Xa7Ik"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-golos font-medium border-2 transition-all hover:scale-105"
               style={{ borderColor: "hsl(340,40%,75%)", color: "hsl(340,40%,55%)" }}
             >
-              <Icon name="Maximize2" size={18} />
+              <Icon name="MessageSquare" size={18} />
               Макс
             </a>
           </div>
