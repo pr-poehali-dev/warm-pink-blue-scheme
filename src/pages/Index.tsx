@@ -33,7 +33,7 @@ const WHY_LIST = [
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-white overflow-x-hidden">
+    <div className="min-h-screen overflow-x-hidden" style={{ background: "linear-gradient(180deg, hsl(345,60%,97%) 0%, hsl(270,40%,97%) 25%, hsl(205,60%,96%) 50%, hsl(270,40%,97%) 75%, hsl(345,60%,97%) 100%)" }}>
 
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b" style={{ borderColor: "hsl(340,50%,92%)" }}>
@@ -55,7 +55,7 @@ export default function Index() {
       {/* HERO */}
       <section
         className="relative min-h-screen flex items-center justify-center text-center px-6"
-        style={{ background: "linear-gradient(160deg, hsl(345,60%,97%) 0%, hsl(205,60%,96%) 100%)" }}
+        style={{ background: "transparent" }}
       >
         <div
           className="absolute inset-0 opacity-25"
@@ -109,7 +109,7 @@ export default function Index() {
       </section>
 
       {/* О ГРУППЕ */}
-      <section id="about" className="py-20 px-6 bg-white">
+      <section id="about" className="py-20 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-14">
             <p className="font-golos text-xs tracking-[0.2em] uppercase mb-3" style={{ color: "hsl(200,50%,60%)" }}>О группе</p>
@@ -143,7 +143,7 @@ export default function Index() {
       </section>
 
       {/* ДЛЯ КОГО */}
-      <section className="py-20 px-6" style={{ background: "hsl(205,60%,97%)" }}>
+      <section className="py-20 px-6">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-14">
             <p className="font-golos text-xs tracking-[0.2em] uppercase mb-3" style={{ color: "hsl(340,40%,65%)" }}>Для кого</p>
@@ -172,7 +172,7 @@ export default function Index() {
       </section>
 
       {/* ВЕДУЩАЯ */}
-      <section id="leader" className="py-20 px-6 bg-white">
+      <section id="leader" className="py-20 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-14">
             <p className="font-golos text-xs tracking-[0.2em] uppercase mb-3" style={{ color: "hsl(200,50%,60%)" }}>Ведущая</p>
@@ -211,7 +211,7 @@ export default function Index() {
       </section>
 
       {/* РАСПИСАНИЕ И СТОИМОСТЬ */}
-      <section id="schedule" className="py-20 px-6" style={{ background: "hsl(345,60%,97%)" }}>
+      <section id="schedule" className="py-20 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-14">
             <p className="font-golos text-xs tracking-[0.2em] uppercase mb-3" style={{ color: "hsl(340,40%,65%)" }}>Расписание и стоимость</p>
@@ -273,7 +273,7 @@ export default function Index() {
       </section>
 
       {/* КОНТАКТЫ */}
-      <section id="contacts" className="py-20 px-6 bg-white">
+      <section id="contacts" className="py-20 px-6">
         <div className="max-w-2xl mx-auto text-center">
           <p className="font-golos text-xs tracking-[0.2em] uppercase mb-3" style={{ color: "hsl(200,50%,60%)" }}>Контакты</p>
           <h2 className="font-cormorant text-4xl md:text-5xl font-light mb-6" style={{ color: "hsl(340,15%,20%)" }}>
@@ -310,7 +310,7 @@ export default function Index() {
       </section>
 
       {/* FOOTER */}
-      <footer className="py-8 px-6 text-center" style={{ background: "hsl(345,40%,97%)" }}>
+      <footer className="py-8 px-6 text-center bg-white/30">
         <p className="font-cormorant text-xl font-light mb-1" style={{ color: "hsl(340,40%,60%)" }}>«Хочу ребёнка»</p>
         <p className="font-golos text-xs" style={{ color: "hsl(340,10%,65%)" }}>
           Терапевтическая группа · Онлайн и Новосибирск
