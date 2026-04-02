@@ -1,7 +1,7 @@
 import Icon from "@/components/ui/icon";
 
 const PHOTO_YULIA =
-  "https://cdn.poehali.dev/projects/527397da-c75d-4633-8088-e4d4a78a57ac/files/03d007ad-b34d-4c7f-992e-70d11f96afec.jpg";
+  "https://cdn.poehali.dev/projects/527397da-c75d-4633-8088-e4d4a78a57ac/bucket/c3536bbb-128a-4f93-9bd0-f7cfdcc8263f.jpeg";
 const HERO_BG =
   "https://cdn.poehali.dev/projects/527397da-c75d-4633-8088-e4d4a78a57ac/files/7e232215-4d34-479e-89e8-10c70c83b1a8.jpg";
 
