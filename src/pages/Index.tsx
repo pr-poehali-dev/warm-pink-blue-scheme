@@ -293,7 +293,7 @@ export default function Index() {
               +7 913 746 59 08
             </a>
             <a
-              href="https://t.me/+79137465908"
+              href="https://t.me/yv_psiholog"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-golos font-medium border-2 transition-all hover:scale-105"
